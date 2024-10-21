@@ -37,7 +37,7 @@ Install required packages using pip install -r requirements.txt.
    - Click **Send** to upload the document and get the response.
 
 ### 4. **Testing the `/ask_pdf` Endpoint**
-   - ![https://github.com/iusaidmulla/qp-ai-assessment/blob/849c47dd622657146e30379e252270f57d7378d9/ask_pdf_endpoint.png](https://github.com/iusaidmulla/qp-ai-assessment/blob/129fe224633bba1d6a627a5136760d9593aff088/ask_pdf_endpoint.png)
+![https://github.com/iusaidmulla/qp-ai-assessment/blob/849c47dd622657146e30379e252270f57d7378d9/ask_pdf_endpoint.png](https://github.com/iusaidmulla/qp-ai-assessment/blob/129fe224633bba1d6a627a5136760d9593aff088/ask_pdf_endpoint.png)
    - Set the HTTP method to `POST`.
    - In the `Body` tab, choose `raw` and select `JSON`.
    - Enter the following JSON to ask a question about the uploaded documents:
@@ -49,7 +49,7 @@ Install required packages using pip install -r requirements.txt.
    - Click **Send** and check the response, which should include the answer and the relevant sources.
 
 ### 5. **Testing the `/performance_report` Endpoint**
-   - ![https://github.com/iusaidmulla/qp-ai-assessment/blob/9ac05fabb5ce88b2ac7f67b09b8faad0ad316f06/performance_report_endpoint.png](https://github.com/iusaidmulla/qp-ai-assessment/blob/aaa1bfca395928e51c2e41aa743523a5bf6248e7/performance_report_endpoint.png)
+![https://github.com/iusaidmulla/qp-ai-assessment/blob/9ac05fabb5ce88b2ac7f67b09b8faad0ad316f06/performance_report_endpoint.png](https://github.com/iusaidmulla/qp-ai-assessment/blob/aaa1bfca395928e51c2e41aa743523a5bf6248e7/performance_report_endpoint.png)
    - Set the HTTP method to `GET`.
    - Enter `http://127.0.0.1:8501/performance_report` in the URL field.
    - Click **Send** to retrieve the performance report.
@@ -66,7 +66,7 @@ Install required packages using pip install -r requirements.txt.
    - Click **Send** to attempt the deletion of the vector database.
 
 ### 7. **Chat_logs, Chat.db & inference.log**
-   - ![https://github.com/iusaidmulla/qp-ai-assessment/blob/199052acdeafa4aa447df31ab8fffe203e8ec058/db_test.png](https://github.com/iusaidmulla/qp-ai-assessment/blob/67196aa502b1415debbe36e25c980842c883c587/db_test.png)
+![https://github.com/iusaidmulla/qp-ai-assessment/blob/199052acdeafa4aa447df31ab8fffe203e8ec058/db_test.png](https://github.com/iusaidmulla/qp-ai-assessment/blob/67196aa502b1415debbe36e25c980842c883c587/db_test.png)
    - Database Initialization: Ensure the SQLite database is initialized correctly with the required table (rag_chat_history_t).
    - Log Files: Logs are stored in inference.log and performance_report.json, and each chat session has a unique log file stored in chat_logs/.
 
