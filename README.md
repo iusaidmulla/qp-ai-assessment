@@ -33,7 +33,7 @@ To test your Flask application using Postman, follow these steps:
    - Click **Send** to upload the document and get the response.
 
 ### 4. **Testing the `/ask_pdf` Endpoint**
-   - !https://github.com/iusaidmulla/qp-ai-assessment/blob/849c47dd622657146e30379e252270f57d7378d9/ask_pdf_endpoint.png
+   - ![https://github.com/iusaidmulla/qp-ai-assessment/blob/849c47dd622657146e30379e252270f57d7378d9/ask_pdf_endpoint.png](https://github.com/iusaidmulla/qp-ai-assessment/blob/129fe224633bba1d6a627a5136760d9593aff088/ask_pdf_endpoint.png)
    - Set the HTTP method to `POST`.
    - In the `Body` tab, choose `raw` and select `JSON`.
    - Enter the following JSON to ask a question about the uploaded documents:
