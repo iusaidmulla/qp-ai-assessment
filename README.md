@@ -66,6 +66,7 @@ Install required packages using pip install -r requirements.txt.
    - Click **Send** to attempt the deletion of the vector database.
 
 ### 7. **Chat_logs, Chat.db & inference.log**
+   - !https://github.com/iusaidmulla/qp-ai-assessment/blob/199052acdeafa4aa447df31ab8fffe203e8ec058/db_test.png
    - Database Initialization: Ensure the SQLite database is initialized correctly with the required table (rag_chat_history_t).
    - Log Files: Logs are stored in inference.log and performance_report.json, and each chat session has a unique log file stored in chat_logs/.
 
