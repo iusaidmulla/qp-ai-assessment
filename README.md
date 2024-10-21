@@ -17,6 +17,7 @@ To test your Flask application using Postman, follow these steps:
    - Enter the API endpoint (for example, `http://127.0.0.1:8501/upload_documents`) in the request URL field.
 
 ### 3. **Testing the `/upload_documents` Endpoint**
+   - upload_documents_endpoint.png
    - Set the HTTP method to `POST`.
    - Select `Body` → `form-data`.
      - **File Upload:** Add files to test the document upload feature:
