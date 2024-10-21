@@ -3,6 +3,10 @@ Problem Statement - Contextual Chat Bot
 
 To test your Flask application using Postman, follow these steps:
 
+Install Dependencies:
+
+Install required packages using pip install -r requirements.txt.
+
 ### 1. **Starting the Application**
    - Ensure your virtual environment is activated.
    - Run your Flask application using the shell script:
@@ -60,5 +64,9 @@ To test your Flask application using Postman, follow these steps:
      }
      ```
    - Click **Send** to attempt the deletion of the vector database.
+
+### 7. **Chat_logs, Chat.db & inference.log**
+   - Database Initialization: Ensure the SQLite database is initialized correctly with the required table (rag_chat_history_t).
+   - Log Files: Logs are stored in inference.log and performance_report.json, and each chat session has a unique log file stored in chat_logs/.
 
 These are the basic steps to interact with your endpoints using Postman!
