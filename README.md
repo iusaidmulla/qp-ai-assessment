@@ -45,7 +45,7 @@ To test your Flask application using Postman, follow these steps:
    - Click **Send** and check the response, which should include the answer and the relevant sources.
 
 ### 5. **Testing the `/performance_report` Endpoint**
-   - !https://github.com/iusaidmulla/qp-ai-assessment/blob/9ac05fabb5ce88b2ac7f67b09b8faad0ad316f06/performance_report_endpoint.png
+   - ![https://github.com/iusaidmulla/qp-ai-assessment/blob/9ac05fabb5ce88b2ac7f67b09b8faad0ad316f06/performance_report_endpoint.png](https://github.com/iusaidmulla/qp-ai-assessment/blob/aaa1bfca395928e51c2e41aa743523a5bf6248e7/performance_report_endpoint.png)
    - Set the HTTP method to `GET`.
    - Enter `http://127.0.0.1:8501/performance_report` in the URL field.
    - Click **Send** to retrieve the performance report.
