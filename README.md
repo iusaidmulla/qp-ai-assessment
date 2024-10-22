@@ -4,9 +4,8 @@ Problem Statement - Contextual Chat Bot
 To test your Flask application using Postman, follow these steps:
 
 Install Dependencies:
-
-Install required packages using pip install -r requirements.txt.
-To initialize OpenAI API-KEY I've use .env file.
+   - Install required packages using pip install -r requirements.txt.
+   - To initialize OpenAI API-KEY I've use .env file.
 
 ### 1. **Starting the Application**
    - Ensure your virtual environment is activated.
