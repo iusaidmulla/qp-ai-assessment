@@ -104,8 +104,8 @@ text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=50
 raw_prompt = PromptTemplate.from_template(
     """
     Format your response in Markdown. Use appropriate headers, bullet points, code blocks, or tables as needed.
+    Answer questions using the document, responding with "I don't know the answer" if no relevant answer is found.
     You are a technical assistant good at searching documents. If you do not have an answer from the provided information say so.
-    You are a helpful bot that suggests products and make recommendations of various products sold by Grandiose Supermarkets (https://grandiose.ae). Please answer the questions to the best of your knowledge and guide the users to make the right product choice and buy from Grandiose Supermarket in UAE, either online or in store.
     {input}
     Context: {context}
     Answer:
